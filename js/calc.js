@@ -25,7 +25,7 @@ Calculadora.prototype.resultado = function() {
 }
 
 Calculadora.prototype.resolver = function(equacao) {
-  var formula = /(\(\d+\))([+|*|\/|-])(\(\d+\))/g,
+  var formula = /(\(-?\d*\.{0,1}\d+\))([+|*|\/|-])(\(-?\d*\.{0,1}\d+\))/g,
       matches = formula.exec(equacao),
       v1      = parseFloat(matches[1].replace('(', '').replace(')', '')),
       op      = matches[2],
