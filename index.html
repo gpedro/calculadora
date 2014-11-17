@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mocha.css">
+    <script src="js/mocha.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/should.min.js"></script>
+    <script src="js/unitCalc.js"></script>
+    <script src="js/calc.js"></script>
+    <script src="js/test_calc.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <!-- Screen and clear key -->
+    <div class="top">
+      <span class="clear">C</span>
+      <div class="screen"></div>
+    </div>
+
+    <div class="keys">
+      <!-- operators and other keys -->
+      <span data-value="7">7</span>
+      <span data-value="8">8</span>
+      <span data-value="9">9</span>
+      <span data-operador="+" class="operator">+</span>
+      <span data-value="4">4</span>
+      <span data-value="5">5</span>
+      <span data-value="6">6</span>
+      <span data-operador="-" class="operator">-</span>
+      <span data-value="1">1</span>
+      <span data-value="2">2</span>
+      <span data-value="3">3</span>
+      <span data-operador="/" class="operator">÷</span>
+      <span data-value="0">0</span>
+      <span data-value=".">.</span>
+      <span data-operador="=" class="eval">=</span>
+      <span data-operador="*" class="operator">x</span>
+    </div>
+  </div>
+
+  <div id="mocha"></div>
+
+  <p class="copy">created by <a href="https://twitter.com/kushsolitary">@kushsolitary</a></p>
+
+  <!-- PrefixFree -->
+  <script src="js/preguica.js" type="text/javascript" type="text/javascript"></script>
+
+</body>
+</html>
